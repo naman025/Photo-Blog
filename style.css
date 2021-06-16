@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+}
+
+img {
+    width: 30%;
+    margin: calc(10%/6);
+    border: 5px solid white;
+    transition: transform 0.75s, border 0s;
+    box-sizing: border-box;
+}
+
+img:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+    border: 5px solid black;
+}
+
+header {
+    background-color: white;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+nav {
+    font-size: 1.5em;
+    margin: 0 calc(10%/6);
+    padding: 0.5em 0;
+    border-bottom: 3px solid rgba(128, 128, 128, 0.562);
+}
+
+header span:hover {
+    cursor: pointer;
+}
+
+footer{
+    background-color: grey;
+    height: 2em;
+    text-align: center;
+    padding: 2em;    
+}
